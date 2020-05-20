@@ -145,7 +145,7 @@ namespace DS18B20_MAX32630_Config
         }
 
         /**
-        SerialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e) draws the main window.  The code in this 
+        SerialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e) -- The code in this 
         event method gets called when serial port activity is sensed.  The code attempts to perform a 
         Readline() and send the result to delegate callback function, ProcessInData, that has write 
         privileges on the output text box called textBoxOutput.<br>
