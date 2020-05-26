@@ -20,11 +20,11 @@ Figure 1. Hardware Setup
 - Once connected to a Serial port, the Main Program will appear and display the COM port and Baud rate, as well as the firmware version at the bottom of the main window. See screenshot below in Figure 4.
 - Writing Configuration Info: The main window displays a single input text box to hold 3 bytes in hexadecimal format (no spaces): the threshold high alarm (TH), the threshold low (TL) alarm, and the resolution. After filling in the text box, the user should click the Write Config button. This writes the three bytes to the DS18B20 and performs a read back so the user can confirm the bytes actually got written. This follows a subset of the DS18B20 Operation Example 2 on page 18 of the [DS18B20’s data sheet](https://www.maximintegrated.com/en/products/sensors/DS18B20.html) (without calculating the CRC).  The main output text box to the right will display what got written to the part and what got read back (see Figure 4).
 
-![Splash Screen](SplashScreen.png)
+![Splash Screen](SplashScreen.png) <br>
 Figure 2. Splash Screen
 
 ![Connect Screenshot](ConnectScreenshot.png) <br>
 Figure 3. Serial Port Connection Screen
 
-![Main Window Screenshot](MainWindowScreenshot.png)
+![Main Window Screenshot](MainWindowScreenshot.png) <br>
 Figure 4. Main GUI Window.
