@@ -11,7 +11,7 @@ It offers 3 input fields for the high alarm, low alarm and resolution.  It also 
 - USB – mini cable connects the MAX32630FTHR# to a PC’s spare USB port for power and serial communication.
 - MAX32625PICO# (PICO) is required to program firmware on the FTHR board. This comes with the FTHR board, a separate USB cable to power the PICO, and a 10-pin SWD ribbon cable for programming the FTHR that connects the PICO and FTHR together. (The PICO setup is not shown in Figure 1 below).
 
-![D S18 B20 M A X32630 F T H R Photo](DS18B20_MAX32630FTHR_Photo.png) 
+![D S18 B20 M A X32630 F T H R Photo](DS18B20_MAX32630FTHR_Photo.png) <br>
 Figure 1. Hardware Setup
 
 **Getting Started**
@@ -26,7 +26,7 @@ Figure 1. Hardware Setup
 ![Splash Screen](SplashScreen.png)
 Figure 2. Splash Screen
 
-![Connect Screenshot](ConnectScreenshot.png)
+![Connect Screenshot](ConnectScreenshot.png) <br>
 Figure 3. Serial Port Connection Screen
 
 ![D S18 B20 M A X32630 F T H R Screenshot](DS18B20_MAX32630FTHR_Screenshot.png)
