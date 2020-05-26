@@ -138,6 +138,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -150,7 +151,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConnectScreenshot.png" />
+    <Content Include="DS18B20_MAX32630FTHR_Photo.png" />
+    <Content Include="MainWindowScreenshot.png" />
     <Content Include="maximlogo_YGT_icon.ico" />
+    <Content Include="SplashScreen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
