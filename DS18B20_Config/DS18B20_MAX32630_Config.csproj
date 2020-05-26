@@ -24,7 +24,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ProductName>DS18B20 MAX32630 Config</ProductName>
+    <ProductName>DS18B20 Config</ProductName>
     <PublisherName>Maxim Integrated Products</PublisherName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
@@ -148,6 +148,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -161,7 +162,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="ConnectScreenshot.png" />
+    <Content Include="DS18B20_MAX32630FTHR_Photo.png" />
+    <Content Include="DS18B20_MAX32630FTHR_Screenshot.png" />
     <Content Include="maximlogo_YGT_icon.ico" />
+    <Content Include="SplashScreen.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
